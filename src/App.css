@@ -1,0 +1,51 @@
+:root{
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: gray;
+}
+
+.hide-article {
+  display: none;
+}
+
+.lofoten,
+.webdesign {
+  max-width: 600px;
+}
+
+.article {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.navigation-menu button {
+  background-color: #eee;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navigation-menu button.active {
+  background-color: #333;
+  color: #fff;
+}
+
